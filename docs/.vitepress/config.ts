@@ -7,17 +7,15 @@ export default {
         copyright: "Copyright ©2014-2022 YBO.ME 版权所有"
     },
     nav: [
-      { text: "Guide", link: "/guide/" },
-      { text: "Config", link: "/config/" }
+      { text: "服务器相关", link: "/server/build-trojan.html" },
+      { text: "开发相关", link: "/" }
     ],
     sidebar: {
-      "/guide/": [
+      "/server/": [
         {
-          text: "Guide",
+          text: "服务器相关",
           items: [
-            { text: "Index", link: "/guide/" },
-            { text: "One", link: "/guide/one.html" },
-            { text: "Two", link: "/guide/two.html" },
+            { text: "Trojan的构建及应用", link: "/server/build-trojan.html" },
           ]
         }
       ],
