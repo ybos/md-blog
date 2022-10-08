@@ -7,7 +7,13 @@ export default {
         copyright: "Copyright ©2014-2022 YBO.ME 版权所有"
     },
     nav: [
-      { text: "服务器相关", link: "/server/build-trojan.html" },
+      {
+        text: "服务器相关",
+        items: [
+          { text: "Trojan的构建及应用", link: "/server/build-trojan.html" },
+          { text: "VitePress的搭建和常用指令", link: "/server/vitepress.html" },
+        ]
+      },
       { text: "开发相关", link: "/" }
     ],
     sidebar: {
@@ -16,6 +22,7 @@ export default {
           text: "服务器相关",
           items: [
             { text: "Trojan的构建及应用", link: "/server/build-trojan.html" },
+            { text: "VitePress的搭建和常用指令", link: "/server/vitepress.html" },
           ]
         }
       ],
